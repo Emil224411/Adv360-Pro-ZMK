@@ -65,7 +65,7 @@
         &none          &none        &none        &none        &none                                 &none &none &none &none      &bl BL_TOG &rgb_ug RGB_TOG                    &bl BL_INC &bl BL_DEC &none &none &none
       >;
     };
-    extra1 { // L4
+    symbol { // L4
       display-name = "Red";    
       bindings = <
         &trans &trans   &trans    &trans   &trans   &trans    &trans                                             &mo 3  &trans   &trans    &trans    &trans    &trans   &trans
@@ -76,7 +76,7 @@
       >;
     };
 
-    extra2 { // L5
+    vim_nav { // L5
       display-name = "Purple";    
       bindings = <
         &trans &trans    &trans &trans    &trans    &trans &trans                                             &mo 3  &trans &trans    &trans   &trans    &trans   &trans
@@ -87,14 +87,5 @@
       >;
     };
 
-    extra3 { 
-      display-name = "Cyan";    
-      status = "reserved";
-    };
-
-    extra4 { 
-      display-name = "Yellow";    
-      status = "reserved";
-    };
   };
 };
