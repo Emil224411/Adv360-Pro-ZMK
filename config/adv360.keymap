@@ -152,8 +152,8 @@
             display-name = "hdg";
             bindings = <
 &kp GRAVE  &kp N1    &kp N2    &kp N3        &kp N4        &kp N5  &tog 3                                                             &mo 7      &kp N6    &kp N7        &kp N8        &kp N9    &kp N0    &none
-&kp EQUAL  &kp J     &kp G     &kp M         &kp P         &kp V   &none                                                              &tog 1     &kp SEMI  &kp COMMA     &kp DOT       &kp FSLH  &kp K     &kp MINUS
-&kp ESC    &hll 4 R  &hll 5 S  &hml LCTRL N  &hml LSHFT D  &kp B   &none     &lt 6 DEL     &kp LALT         &kp RALT     &key_repeat  &none      &none     &hmr RSHFT A  &hmr RCTRL E  &hlr 5 I  &hlr 4 H  &kp SQT
+&kp EQUAL  &kp J     &kp G     &kp M         &kp P         &kp V   &none                                                              &trans     &kp SEMI  &kp COMMA     &kp DOT       &kp FSLH  &kp K     &kp MINUS
+&kp ESC    &hll 4 R  &hll 5 S  &hml LCTRL N  &hml LSHFT D  &kp B   &none     &lt 6 DEL     &kp LALT         &kp RALT     &key_repeat  &trans     &none     &hmr RSHFT A  &hmr RCTRL E  &hlr 5 I  &hlr 4 H  &kp SQT
 &kp LSHFT  &kp X     &kp F     &kp L         &kp C         &kp W                           &mkp MB3         &kp RGUI                             &none     &kp U         &kp O         &kp Y     &kp K     &kp RSHFT
 &mo 3      &kp Q     &kp Z     &kp LEFT      &kp RIGHT             &kp BSPC  &mt LGUI TAB  &key_repeat      &key_repeat  &lt 3 ENTER  &kp SPACE            &kp UP        &kp DOWN      &kp LBKT  &kp RBKT  &mo 3
             >;
